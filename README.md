@@ -6,15 +6,9 @@ IsoResolve is a computational approach for isoform function prediction by levera
 ## 2 Input data
 The demo input data are provided in the folder 'data'. The subfolder 'goterm_cv' includes data for evulating the performance of IsoResolve with cross validation (cv). The subfolder 'goterm_traintest' includes training data for building models and test data for evaluating the performance of IsoResolve.
 
-## 3 Download
+## 3 Implementation
 
-* **software**
-
-The source codes are tested and work on both MacOS and Linux operating system. They are freely available for non-commercial use.<br>
-
-| **Version** | **Changes** |
-| - | - |
-| [iREAD_0.5.0.zip](https://github.com/genemine/iread/raw/master/history_version/iREAD_0.5.0.zip) |  |
+IsoResove is implemented in Python. It is tested on both MacOS and Linux operating system. They are freely available for non-commercial use.<br>
 
 ## 4. Usage
 We provide two scripts to show how to run IsoResolve

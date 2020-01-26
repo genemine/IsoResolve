@@ -14,7 +14,7 @@ IsoResove is implemented in Python. It is tested on both MacOS and Linux operati
 We provide two scripts to show how to run IsoResolve
 ### 4.1 To test IsoResolve by cross validation, run the following command from command line:
 ```bash
-python run_isoresolve_cv.py<br>
+python run_isoresolve_cv.py
 ```
 
 This command will excecute CV on the provided data.

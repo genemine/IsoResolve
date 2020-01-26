@@ -28,7 +28,7 @@ python run_isoresolve_traintest.py
 
 This command will first build a model on the training data and then make predictions on the test data.
 
-# 5. Contact
+## 5. Contact
 If any questions, please do not hesitate to contact me at:
 <br>
 Hongdong Li `hongdong@csu.edu.cn`

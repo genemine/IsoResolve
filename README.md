@@ -4,23 +4,23 @@ IsoResolve is a computational approach for isoform function prediction by levera
 
 
 ## 2 Input data
-The demo input data are provided in the folder 'data'. The subfolder 'goterm_cv' includes data for evulating the performance of IsoResolve with cross validation (cv). The subfolder 'goterm_traintest' includes training data for building models and test data for evaluating the performance of IsoResolve.
+The demo input data are provided in the folder 'data'. The subfolder 'goterm_cv' includes data for evulating the performance of IsoResolve with cross validation (CV). The subfolder 'goterm_traintest' includes training data for building models and test data for evaluating the performance of IsoResolve.
 
 ## 3 Implementation
 
 IsoResove is implemented in Python. It is tested on both MacOS and Linux operating system. They are freely available for non-commercial use.<br>
 
 ## 4. Usage
-We provide two scripts to show how to run IsoResolve
-### 4.1 To test IsoResolve by cross validation, run the following command from command line:
+We provide two demo scripts to show how to run IsoResolve.
+4.1 To test IsoResolve by cross validation, run the following command from command line:
 ```bash
 python run_isoresolve_cv.py
 ```
 
-This command will excecute CV on the provided data.
+This command will excecute cross validation on the provided data.
 
 
-### 4.2 To test IsoResolve by on an independent test dataset, run the following command from command line:
+4.2 To test IsoResolve by on an independent test dataset, run the following command from command line:
 ```bash
 python run_isoresolve_traintest.py
 ```

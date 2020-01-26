@@ -11,7 +11,8 @@ The demo input data are provided in the folder 'data'. The subfolder 'goterm_cv'
 IsoResove is implemented in Python. It is tested on both MacOS and Linux operating system. They are freely available for non-commercial use.<br>
 
 ## 4. Usage
-We provide two demo scripts to show how to run IsoResolve.
+We provide two demo scripts to show how to run IsoResolve.<br>
+
 4.1 To test IsoResolve by cross validation, run the following command from command line:
 ```bash
 python run_isoresolve_cv.py

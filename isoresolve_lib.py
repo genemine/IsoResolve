@@ -398,6 +398,7 @@ def isoresolve_cv(inputdir,fold,A=15,lmd=5,optimize=False):
 		
 
 	# AUC
+	predscore=1/(1+np.exp(-predscore)) # convert to 0-1
 	result={}
 	result['auc']=0
 	auc_nlv=[]
@@ -461,7 +462,7 @@ def isoresolve_train_test(inputdir,fold,A=15,lmd=5):
 		
     # store
     predscore=np.vstack((predscore,ypred))
-	
+    predscore=1/(1+np.exp(-predscore))  # convert to 0-1 range.
 	
     iso2gene =np.vstack((iso2gene,thisiso2gene))
     posigene=list(set(posigene+thisposigene))
